@@ -1,0 +1,29 @@
+#cuadro_pricipal{
+    width: 1600px;
+    height: 1200px;
+    background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#contenido{
+    width: 1400px;
+    height: 800px;
+    position: relative;
+    left: 100px;
+    top: 200px;
+    background-color: #FFFFFF;
+}
+#logo{
+    position: relative;
+    width: 166px;
+    height: 44px;
+    left: 43px;
+    top: 43px;
+}
+#comprar_tarjeta{
+    position: relative;
+    width: 230px;
+    height: 41px;
+    left: 700px;
+    background-color: aqua;
+}
