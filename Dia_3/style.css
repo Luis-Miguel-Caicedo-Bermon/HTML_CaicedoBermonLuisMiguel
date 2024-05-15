@@ -2,7 +2,7 @@
     width: 1600px;
     height: 1200px;
     background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
-    background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #ffffff 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 #contenido{
@@ -20,10 +20,251 @@
     left: 43px;
     top: 43px;
 }
+#imagenlogo{
+    min-height: 38px;
+}
 #comprar_tarjeta{
     position: relative;
     width: 230px;
     height: 41px;
     left: 700px;
-    background-color: aqua;
+    font-size: 30px;
+    font-family: system-ui;
+    color: black;
+}
+
+#ver_saldo{
+    position: relative;
+    width: 132px;
+    height: 41px;
+    top: -40px;
+    left: 972px;
+    font-size: 30px;
+    font-family: system-ui;
+    color: black;
+}
+#linea{
+    width: 130px;
+    height: 2px;
+    position: relative;
+    left: 740px;
+    top: -20px;
+    background-color: rgb(0, 0, 0);
+}
+#linea2{
+    width: 84px;
+    height: 2px;
+    position: relative;
+    left: 990px;
+    top: -20px;
+    background-color: rgb(0, 0, 0);
+}
+#buscador{
+    width: 27px;
+    height: 27px;
+    left: 1124px;
+    top: -73px;
+    position: relative;
+}
+#carrito{
+    width: 33px;
+    height: 31px;
+    position: relative;
+    left: 1223px;
+    top: -100px;
+}
+#tarjeta{
+    position: relative;
+    bottom: 55px;
+    left: 127px;
+    width: 884px;
+    height: 497px;
+}
+#tarjeta2{
+    position: relative;
+    bottom: 70px;
+    left: 400px;
+    width: 520px;
+    height: 324px;
+}
+#imgtarjeta2{
+    top: 322px;
+    left: 227px;
+    width: 520px;
+    height: 324px;
+}
+#imgtarjeta{
+    top: 322px;
+    left: 227px;
+    width: 884px;
+    height: 497px;
+}
+#tarjeta-saldo{
+    width: 716px;
+    height: 55px;
+    left: 58px;
+    bottom: 30px;
+    position: relative;
+    font-family: system-ui;
+    font-size: 40px;
+}
+#saldo{
+    width: 139px;
+    height: 37px;
+    position: relative;
+    left: 57px;
+    bottom: 20px;
+    font-family: system-ui;
+    font-size: 27px;
+}
+#cuadrito{
+    width: 160px;
+    height: 114px;
+    position: relative;
+    background-color: #d5ff43;
+    border-radius: 8px;
+    left: 1080px;
+    top: -150px;
+}
+#cuadrito2{
+    width: 160px;
+    height: 114px;
+    position: relative;
+    background-color: #d5ff43;
+    border-radius: 8px;
+    left: 1080px;
+    top: -73px;
+}
+#metrolinea{
+    width: 129px;
+    height: 25px;
+    position: relative;
+    left: 15px;
+    top: 25px;
+}
+#imgmetrolinea{
+    min-height: 30px;
+}
+#comprar{
+    width: 129px;
+    height: 25px;
+    position: relative;
+    left: 15px;
+    top: 40px;
+    font-family: system-ui;
+    font-size: 27px;
+}
+#barraderecha{
+    position: relative;
+    width: 110px;
+    height: 800px;
+    background-color: black;
+    top: -889px;
+    left: 1290px;
+}
+#barraderecha2{
+    position: relative;
+    width: 110px;
+    height: 800px;
+    background-color: black;
+    top: -812px;
+    left: 1290px;
+}
+#flecha1{
+    width: 24px;
+    height: 14px;
+    position: relative;
+    top: 40px;
+    left: 43px;
+}
+#cantidad{
+    position: relative;
+    width: 84px;
+    height: 27px;
+    top: 130px;
+    left: 13px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: system-ui;
+}
+#valor{
+    position: relative;
+    width: 84px;
+    height: 27px;
+    top: 130px;
+    left: 33px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: system-ui;
+}
+#numeros{
+    width: 23px;
+    height: 187px;
+    position: relative;
+    top: 250px;
+    left: 40px;
+    font-size: 20px;
+    font-family: system-ui;
+    color: white;
+}
+#numeros2{
+    width: 50px;
+    height: 187px;
+    position: relative;
+    top: 250px;
+    left: 27px;
+    font-size: 20px;
+    font-family: system-ui;
+    color: white;
+}
+#num{
+    color: #808080;
+}
+#flecha2{
+    width: 24px;
+    height: 14px;
+    position: relative;
+    top: 500px;
+    left: 43px;
+}
+#pepito{
+    width: 700px;
+    height: 55px;
+    position: relative;
+    top: -100px;
+    left: 330px;
+    font-size: 40px;
+    font-family: system-ui;
+}
+#saldoactual{
+    width: 329px;
+    height: 27;
+    position: relative;
+    top: -90px;
+    left: 500px;
+    font-size: 26px;
+    font-family: system-ui;
+}
+#saldoescogido{
+    width: 200px;
+    height: 37px;
+    position: relative;
+    top: -70px;
+    left: 560px;
+    font-size: 26px;
+    font-family: system-ui;
+}
+#saldito{
+    border: 2px solid #707070;
+    border-radius: 10px;
+    width: 288px;
+    height: 58px;
+    position: relative;
+    top: -50px;
+    left: 508px;
+    font-size: 26px;
+    font-family: system-ui;
+    color: #707070;
+    text-align: center;
+    line-height: 58px;
 }
