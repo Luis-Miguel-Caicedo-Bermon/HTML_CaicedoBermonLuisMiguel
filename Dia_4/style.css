@@ -1,0 +1,40 @@
+#cuadro{
+    width: 1920px;
+    height: 4149px;
+    margin: auto;
+    background-color: black;
+}
+#imgprin{
+    width: 1920px;
+    height: 1080px;
+    background-image: url("images/FondoTwitch@2x.png");
+    background-size: cover;
+    border: greenyellow 2px solid;
+}
+#cuadro1{
+    position: relative;
+    top: 26px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    border-radius: 108px;
+    border: greenyellow 2px solid;
+}
+#cuadro2{
+    position: relative;
+    top: 70px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+    border-radius: 108px;
+    border: greenyellow 2px solid;
+}
+#cuadro3{
+    position: relative;
+    top: 100px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    border-radius: 108px;
+    border: greenyellow 2px solid;
+}
