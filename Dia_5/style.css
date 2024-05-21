@@ -9,7 +9,8 @@ body{
 .contenedor{
     margin: auto;
     width: 1920px;
-    height: 5490px;
+    height: 5540px;
+    overflow: hidden;
 }
 #cuadro11{
     width: 1920px;
@@ -274,7 +275,7 @@ body{
     top: 10px;
     margin: auto;
     width: 98%;
-    height: 96%;
+    height: 95%;
     border: #1e1d2b 5px solid;
 }
 #wemake{
@@ -321,6 +322,7 @@ body{
 }
 #textico{
     font-size: 35px;
+    width: 400px;
 }
 #Contacts{
     margin-top: 20px;
@@ -329,9 +331,31 @@ body{
     display: flex;
     gap: 10px;
 }
-#circulos{
+#whatsapp{
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background-color: #ff702a;
+    background-image: url(images/whatsapp.png);
+    background-size: cover;
+}
+#instagram{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url(images/instagram.jpg);
+    background-size: cover;
+}
+#x{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url(images/x.png);
+    background-size: cover;
+}
+#facebook{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url(images/facebook.png);
+    background-size: cover;
 }
