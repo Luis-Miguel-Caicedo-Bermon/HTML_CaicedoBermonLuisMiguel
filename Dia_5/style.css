@@ -14,34 +14,28 @@ body{
 #cuadro11{
     width: 1920px;
     height: 950px;
-    border: #ee5150 4px solid;
 }
 #cuadro12{
     width: 1920px;
     height: 1080px;
-    border: #ee5150 4px solid;
     display: flex;
     flex-wrap: wrap;
 }
 #cuadro13{
     width: 1920px;
     height: 1080px;
-    border: #ee5150 4px solid;
 }
 #cuadro2{
     width: 1920px;
     height: 900px;
-    border: #ee5150 4px solid;
 }
 #cuadro22{
     width: 1920px;
     height: 800px;
-    border: #ee5150 4px solid;
 }
 #cuadro3{
     width: 1920px;
     height: 450px;
-    border: #ee5150 4px solid;
     display: flex;
 }
 #foods{
