@@ -1,0 +1,32 @@
+@font-face{
+    font-family: "Miyard";
+    src: url(fonts/MYRIADPRO-REGULAR.OTF);
+}
+body{
+    margin: 0px;
+}
+.principal{
+    margin: auto;
+    width: 1920px;
+    height: 1673px;
+    overflow: hidden;
+    background: url(images/pexels-clive-kim-4150032@2x.png);
+    background-size: cover;
+}
+#barra_estatica{
+    display: flex;
+    position: fixed;
+    width: 1920px;
+    height: 174px;
+    background-color: #3669C9;
+}
+#inicio{
+    width: 77px;
+    height: 35px;
+    margin-top: 70px;
+    margin-left: 278px;
+    font-family: "Miyard";
+    font-size: 34px;
+    color: white;
+    line-height: 35px;
+}
