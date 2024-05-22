@@ -196,7 +196,7 @@ body{
     width: 792px;
     height: 63px;
     border: 1px #707070 solid;
-    font-size: 50px;
+    font-size: 30px;
 }
 #fechadeexpedicion{
     margin-top: 32px;
@@ -225,6 +225,7 @@ input[type="date"]{
     background-repeat: no-repeat;
     background-position: 100%;
     font-size: 21px;
+    background-color: #FFFFFF;
 }
 #robot{
     margin-top: 31px;
