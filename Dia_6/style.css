@@ -17,6 +17,22 @@ body{
     background: url(images/pexels-clive-kim-4150032@2x.png);
     background-size: cover;
 }
+.principal2{
+    margin: auto;
+    width: 1920px;
+    height: 1254px;
+    overflow: hidden;
+    background: url(images/pexels-clive-kim-4150032@2x.png);
+    background-size: cover;
+}
+.principal4{
+    margin: auto;
+    width: 1920px;
+    height: 1184px;
+    overflow: hidden;
+    background: url(images/pexels-clive-kim-4150032@2x.png);
+    background-size: cover;
+}
 #barra_estatica{
     display: flex;
     position: fixed;
@@ -66,6 +82,7 @@ body{
     margin-top: 58px;
     margin-left: 160px;
     background-color: white;
+    border: white 1px solid;
     border-radius: 50px;
     width: 248px;
     height: 59px;
@@ -82,6 +99,22 @@ body{
     display: flex;
     position: absolute;
     top: 1463px;
+    width: 1920px;
+    height: 174px;
+    background-color: #3669C9;
+}
+#barra_baja2{
+    display: flex;
+    position: absolute;
+    top: 1080px;
+    width: 1920px;
+    height: 174px;
+    background-color: #3669C9;
+}
+#barra_baja4{
+    display: flex;
+    position: absolute;
+    top: 1080px;
     width: 1920px;
     height: 174px;
     background-color: #3669C9;
@@ -117,6 +150,14 @@ body{
     margin-left: 167px;
     width: 1545px;
     height: 1225px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+}
+#contenidopg4{
+    margin-top: 191px;
+    margin-left: 167px;
+    width: 1545px;
+    height: 860px;
     border-radius: 50px;
     background-color: #FFFFFF;
 }
@@ -159,6 +200,14 @@ body{
 }
 #fechadeexpedicion{
     margin-top: 32px;
+    margin-left: 397px;
+    width: 318px;
+    height: 21px;
+    font-family: "Miyard";
+    font-size: 21px;
+}
+#fechadeexpedicion2{
+    margin-top: 17px;
     margin-left: 397px;
     width: 318px;
     height: 21px;
@@ -233,4 +282,369 @@ height: 84px;
     margin-left: 404px;
     width: 103px;
     height: 62px;
+}
+#quitlink{
+    text-decoration: none;
+    color: black;
+}
+#quitlink2{
+    text-decoration: none;
+    color: white;
+}
+#trami{
+    margin-top: 8.12px;
+    margin-left: 471px;
+    width: 771px;
+    display: flex;
+}
+#tramirud{
+    height: 35px;
+    font-family: "Miyard";
+    font-size: 35px;
+}
+#tramifirma{
+    margin-left: 203px;
+    height: 35px;
+    font-family: "Miyard";
+    font-size: 35px;
+}
+#contex{
+    display: flex;
+    margin-top: 13px;
+    margin-left: 341px;
+    width: 860px;
+    height: 86px;
+    font-family: "light";
+    font-size: 17px;
+}
+#tex2{
+    width: 480px;
+    height: 86px;
+    text-align: center;
+}
+#tex3{
+    margin-left: 127px;
+    width: 300px;
+    height: 86px;
+    text-align: center;
+}
+#conttramitar{
+    margin-top: 19px;
+    margin-left: 455px;
+    width: 707px;
+    height: 56px;
+    display: flex;
+}
+#tramitar1{
+    width: 220px;
+    height: 56px;
+    background-color: #147cfb;
+    border: #147cfb 1px solid;
+    border-radius: 40px;
+}
+#tramitar2{
+    width: 220px;
+    height: 56px;
+    background-color: #147cfb;
+    border: #147cfb 1px solid;
+    border-radius: 40px;
+    margin-left: 267px;
+}
+#tramitars{
+    margin-top: 18px;
+    margin-left: 77px;
+    font-size: 19px;
+    font-family: "Miyard";
+    color: white;
+    width: 66px;
+    height: 19px;
+}
+#contenidopg2{
+    margin-top: 191px;
+    margin-left: 167px;
+    width: 1545px;
+    height: 870px;
+    background-color: white;
+    border-radius: 50px;
+}
+#chulito{
+    margin-top: 66px;
+    margin-left: 677.52px;
+    width: 231px;
+    height: 231px;
+}
+#solicitud_completa{
+    margin-top: 34px;
+    margin-left: 618px;
+    width: 360px;
+    height: 39px;
+    font-size: 39px;
+    font-family: "Miyard";
+}
+#felicitaciones{
+    margin-top: 34px;
+    margin-left: 293px;
+    font-family: "Miyard";
+    font-size: 35px;
+    width: 1000px;
+    height: 84px;
+    text-align: center;
+}
+#muisca2{
+    margin-top: 10px;
+    margin-left: 661px;
+    width: 264px;
+    height: 88px;
+}
+#boton_menu{
+    margin-left: 638px;
+    width: 311px;
+    height: 79px;
+    background-color: #147cfb;
+    border-radius: 30px;
+    border: #147cfb 1px solid;
+}
+#volver_menu{
+    width: 232px;
+    height: 23px;
+    margin-top: 28px;
+    margin-left: 37px;
+    font-family: "Miyard";
+    font-size: 23px;
+    color: white;
+}
+#firma2{
+    margin-top: 13.3px;
+    margin-left: 758.48px;
+    width: 71px;
+    height: 42px;
+}
+#firma_elec{
+    margin-top: 13.2px;
+    margin-left: 663px;
+    width: 270px;
+    height: 24px;
+    font-family: "Miyard";
+    font-size: 24px;
+}
+#paratramitar{
+    margin-top: 32px;
+    margin-left: 209px;
+    width: 1168px;
+    height: 64px;
+    font-family: "Miyard";
+    font-size: 26px;
+    text-align: center;
+}
+#muisca3{
+    margin-top: 17px;
+    margin-left: 678px;
+    width: 231px;
+    height: 77px;
+}
+#documento2{
+    margin-left: 402px;
+    width: 208px;
+    height: 21px;
+    font-family: "Miyard";
+    font-size: 21px;
+}
+#fechadeexpedicion2{
+    margin-top: 17px;
+    margin-left: 397px;
+    width: 318px;
+    height: 21px;
+    font-family: "Miyard";
+    font-size: 21px;
+}
+#boton_continuar{
+    margin-top: 47px;
+    margin-left: 622px;
+    width: 300px;
+    height: 76px;
+    background-color: #147cfb;
+    border: #147cfb 1px solid;
+    border-radius: 30px;
+}
+#continuar{
+    margin-top: 21px;
+    margin-left: 90px;
+    font-family: "Miyard";
+    font-size: 29px;
+    width: 120px;
+    height: 29px;
+}
+#ingresa_contraseña{
+    margin-top: 32px;
+    margin-left: 443px;
+    width: 730px;
+    height: 27px;
+    font-size: 27px;
+    font-family: "Miyard";
+}
+#textico1{
+    margin-top: 25px;
+    margin-left: 620px;
+    width: 730px;
+    height: 27px;
+    font-size: 15px;
+    font-family: "light";
+}
+#textico2{
+    margin-top: 10px;
+    margin-left: 655px;
+    width: 310px;
+    height: 15px;
+    font-size: 15px;
+    font-family: "light";
+    display: flex;
+}
+#textico3{
+    margin-top: 4px;
+    margin-left: 685px;
+    width: 234px;
+    height: 15px;
+    font-size: 15px;
+    font-family: "light";
+    display: flex;
+}
+#textico4{
+    margin-top: 4px;
+    margin-left: 473px;
+    width: 658px;
+    height: 15px;
+    font-size: 15px;
+    font-family: "light";
+    display: flex;
+}
+#textico5{
+    margin-top: 4px;
+    margin-left: 548px;
+    width: 498px;
+    height: 15px;
+    font-size: 15px;
+    font-family: "light";
+    display: flex;
+}
+#textico6{
+    margin-top: 4px;
+    margin-left: 441px;
+    width: 722px;
+    height: 15px;
+    font-size: 15px;
+    font-family: "light";
+    display: flex;
+}
+#check{
+    margin-top: 5px;
+    width: 9px;
+    height: 9px;
+}
+#contraseña1{
+    margin-top: 30px;
+    margin-left: 397px;
+    width: 100px;
+    height: 21px;
+    font-size: 21px;
+    font-family: "Miyard";
+}
+#contra{
+    margin-top: 6px;
+    margin-left: 397px;
+    width: 792px;
+    height: 63px;
+    font-size: 30px;
+    border: #707070 1px solid;
+    font-family: "Miyard";
+}
+#contrarepite{
+    margin-top: 10px;
+    margin-left: 397px;
+    width: 270px;
+    height: 21px;
+    font-size: 21px;
+    font-family: "Miyard";
+}
+#robot2{
+    margin-top: 11px;
+    margin-left: 593px;
+    width: 401px;
+    height: 110px;
+}
+#text2{
+    margin-top: 13px;
+    margin-left: 591px;
+    width: 434px;
+    height: 11px;
+    font-size: 11px;
+    font-family: "light";
+}
+#boton_crear{
+    margin-top: 13px;
+    margin-left: 710px;
+    width: 166px;
+    height: 42px;
+    background-color: #147cfb;
+    border: #147cfb 1px solid;
+    border-radius: 40px;
+}
+#crear{
+    margin-top: 12px;
+    margin-left: 65px;
+    width: 34px;
+    height: 15px;
+    font-size: 15px;
+    font-family: "Miyard";
+}
+#paratramitar2{
+    margin-top: 23px;
+    margin-left:400px;
+    width: 800px;
+    height: 64px;
+    font-size: 26px; 
+    font-family: "Miyard";
+    text-align: center;
+}
+#muisca3{
+    margin-top: 23px;
+    margin-left: 678px;
+    width: 231px;
+    height: 77px;
+}
+#fechacita{
+    margin-top: 8px;
+    margin-left: 397px;
+    width: 200px;
+    height: 21px;
+    font-size: 21px;
+    font-family: "Miyard";
+}
+#robot3{
+    margin-top: 23px;
+    margin-left: 585px;
+    width: 401px;
+    height: 113px;
+}
+#datosinllenar{
+    margin-left: 591px;
+    width: 450px;
+    height: 11px;
+    font-size: 11px;
+    font-family: "light";
+}
+#boton_agendar{
+    margin-top: 19px;
+    margin-left: 706px;
+    width: 166px;
+    height: 42px;
+    background-color: #147cfb;
+    border: #147cfb 1px solid;
+    border-radius: 40px;
+}
+#agendar{
+    margin-top: 12px;
+    margin-left: 55px;
+    width: 55px;
+    height: 15px;
+    font-family: "Miyard";
 }
