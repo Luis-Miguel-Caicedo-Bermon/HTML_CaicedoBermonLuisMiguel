@@ -220,12 +220,14 @@ input[type="date"]{
     width: 792px;
     height: 63px;
     border: 1px #707070 solid;
-    background:url(images/Icon\ awesome-calendar-alt@2x.png);
-    background-size: 50px;
-    background-repeat: no-repeat;
-    background-position: 100%;
     font-size: 21px;
     background-color: #FFFFFF;
+}
+input[type="date"]::-webkit-calendar-picker-indicator{
+    background-image:url(images/Icon\ awesome-calendar-alt@2x.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    font-size: 50px;
 }
 #robot{
     margin-top: 31px;
