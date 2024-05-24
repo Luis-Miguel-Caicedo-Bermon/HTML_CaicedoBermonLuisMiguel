@@ -14,63 +14,65 @@ body{
 }
 #imgprin{
     width: 100vw;
-    height: 100vw;
+    height: 56.3vw;
     background-image: url("images/FondoTwitch@2x.png");
     background-size: 100vw;
     background-repeat: no-repeat;
 }
 #cuadro1{
-    margin-top: 1.4%;
-    margin-left: 3.34%;
-    width: 93%;
-    height: 29.64%;
-    border-radius: 108px;
+    margin-top: 1.8vw;
+    margin-left: 3.34vw;
+    width: 93vw;
+    height: 29.64vw;
+    border-radius: 4vw;
     background-image: url("images/Group\ 2@2x.png");
     background-size: cover;
 }
 #cuadro2{
-    margin-top: 2.29%;
-    margin-left: 3.33%;
-    width: 93%;
-    height: 37.71%;
-    border-radius: 108px;
+    margin-top: 2.29vw;
+    margin-left: 3.33vw;
+    width: 93vw;
+    height: 37.71vw;
+    border-radius: 4vw;
     background-color: #00A8E1;
+    border: #00A8E1 2px solid;
 }
 #cuadro3{
     margin-top: 1.35%;
     margin-left: 3.33%;
-    width: 93%;
-    height: 29.53%;
-    border-radius: 108px;
+    width: 93vw;
+    height: 29.53vw;
+    border-radius: 5.625vw;
     border: #00A8E1 2px solid;
     background-color: #00A8E1;
 }
 #lupalogin{
-    margin-left: 3.28%;
-    width: 95.63%;
-    height: 4.38%;
+    margin-left: 3.28vw;
+    width: 95.63vw;
+    height: 4.38vw;
     display: flex;
     justify-content: space-between;
 }
 #lupa{
-    margin-top: 1.95%;
-    width: 1.88%;
-    height: 1.88%;
+    margin-top: 1.95vw;
+    width: 1.88vw;
+    height: 1.88vw;
 }
 #logoprime{
-    margin-top: 8%;
-    margin-left: 35.52%;
-    width: 28.96%;
-    height: 16.30%;
+    margin-top: 7.7vw;
+    margin-left: 35.52vw;
+    width: 28.96vw;
+    height: 16.30vw;
     background-image: url("images/LogoPrimeE2@2x.png");
     background-size: cover;
 }
 #texto1{
-    margin-left: 20.26%;
-    width: 60.05%;
-    height: 3.13%;
+    margin-top: -2vw;
+    margin-left: 20.26vw;
+    width: 60.05vw;
+    height: 3.13vw;
     font-family: "amazon";
-    font-size: 60px;
+    font-size: 3.13vw;
     color: white;
 }
 @font-face{
@@ -78,200 +80,193 @@ body{
     src: url("Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_Lt.ttf");
 }
 #parrafo{
-    margin-top: 31px;
-    margin-left: 380px;
-    width: 1160px;
-    height: 102px;
+    margin-top: 1.6vw;
+    margin-left: 19.5vw;
+    width: 62vw;
+    height: 4.5vw;
     font-family: "parrafo";
-    font-size: 30px;
+    font-size: 1.6vw;
     color: white;
     text-align: center;
 }
 #sing{
-    margin-top: 50px;
-    margin-left: 730px;
-    width: 458px;
-    height: 104px;
+    margin-top: 4vw;
+    margin-left: 39vw;
+    width: 23vw;
+    height: 5vw;
     border-radius: 52px;
     background-color: white;
-    font-size: 40px;
+    font-size: 2vw;
     font-family: "parrafo";
     text-align: center;
-    line-height: 104px;
+    line-height: 5vw;
 }
 #login{
-    width: 10.68%;
-    height: 2.81%;
+    margin-top: 1.48vw;
+    width: 10.68vw;
+    height: 2.81vw;
     background-color: white;
-    font-size: 1.04%;
+    font-size: 1.04vw;
     font-family: "parrafo";
     text-align: center;
-    line-height: 2.81%;
-    border-radius: 52px;
+    line-height: 2.81vw;
+    border-radius: 52vw;
+}
+#imagenes{
+    margin-left: 21.5vw;
+    margin-top: 3.29vw;
+    width: 49.7vw;
+    height: 16.1vw;
+    display: flex;
+    justify-content: space-between;
 }
 #texC2{
-    position: relative;
-    top: 56px;
-    left: 71px;
-    width: 1664px;
-    height: 60px;
-    font-size: 60px;
+    margin-top: 2.9vw;
+    margin-left: 3.7vw;
+    width: 86.7vw;
+    height: 3.12vw;
+    font-size: 3.12vw;
     font-family: "amazon";
     color: white;
 }
 #img1{
-    position: relative;
-    top: 140px;
-    left: 413px;
-    width: 181px;
-    height: 309px;
+    width: 9.43vw;
+    height: 16.1vw;
     background-image: url("images/img1.png");
     background-size: cover;
 }
 #img2{
-    position: relative;
-    top: -169px;
-    left: 606px;
-    width: 181px;
-    height: 309px;
+    width: 9.43vw;
+    height: 16.1vw;
     background-image: url("images/img2.png");
     background-size: cover;
 }
 #img3{
-    position: relative;
-    top: -478px;
-    left: 799px;
-    width: 181px;
-    height: 309px;
+    width: 9.43vw;
+    height: 16.1vw;
     background-image: url("images/img3.png");
     background-size: cover;
 }
 #img4{
-    position: relative;
-    top: -787px;
-    left: 992px;
-    width: 181px;
-    height: 309px;
+    width: 9.43vw;
+    height: 16.1vw;
     background-image: url("images/img4.png");
     background-size: cover;
 }
 #img5{
-    position: relative;
-    top: -1096px;
-    left: 1185px;
-    width: 181px;
-    height: 309px;
+    width: 9.43vw;
+    height: 16.1vw;
     background-image: url("images/img5.png");
     background-size: cover;
 }
 #textoC2{
-    margin-top: -1040px;
-    margin-left: 143px;
-    width: 1492px;
-    height: 110px;
+    margin-top: 4.21vw;
+    margin-left: 7.45vw;
+    width: 77.71vw;
+    height: 5.73vw;
     text-align: center;
     font-family: "parrafo";
-    font-size: 49px;
+    font-size: 2.55vw;
     color: white;
 }
 #texC3{
-    margin-top: 79px;
-    margin-left: 496px;
-    width: 800px;
-    height: 60px;
+    margin-top: 4.11vw;
+    margin-left: 25.83vw;
+    width: 41.66vw;
+    height: 3.125vw;
     font-family: "amazon";
-    font-size: 60px;
+    font-size: 3.125vw;
     color: white;
 }
 #imgC3{
-    margin-top: 44px;
-    margin-left: 811.68px;
-    width: 168.64px;
-    height: 168.64px;
+    margin-top: 2.29vw;
+    margin-left: 42.27vw;
+    width: 8.78vw;
+    height: 8.78vw;
     background-image: url("images/Icon\ metro-cancel@2x.png");
     background-size: cover;
 }
 #textoC3{
-    margin-top: 62.36px;
-    margin-left: 205px;
-    width: 1382px;
-    height: 88px;
+    margin-top: 3.24vw;
+    margin-left: 10.677vw;
+    width: 71.979vw;
+    height: 4.58vw;
     color: white;
-    font-size: 40px;
+    font-size: 2.08vw;
     font-family: "parrafo";
     text-align: center;
 }
 #compatible{
-    margin-top: 93px;
-    margin-left: 416.33px;
-    width: 1118px;
-    height: 125px;
-    font-size: 125px;
+    margin-top: 4.84vw;
+    margin-left: 21.583vw;
+    width: 58.22vw;
+    height: 6.51vw;
+    font-size: 6.51vw;
     font-family: "parrafo";
     color: white;
 }
 #tex1{
-    margin-top: 44px;
-    margin-left: 179.33px;
-    width: 1544px;
-    height: 99px;
-    font-size: 45px;
+    margin-top: 2.29vw;
+    margin-left: 9.34vw;
+    width: 80.41vw;
+    height: 5.15vw;
+    font-size: 2.34vw;
     font-family: "parrafo";
     color: white;
     text-align: center;
 }
 #flecha1{
     position: relative;
-    top: 294px;
-    left: 303.27px;
-    width: 18.9px;
-    height: 26.61px;
+    top: 15.31vw;
+    left: 15.795vw;
+    width: 0.98vw;
+    height: 1.38vw;
     background-image: url("images/Flecha@2x.png");
     background-size: cover;
 }
 #iphone{
     position: relative;
-    top: 185px;
-    left: 384.33px;
-    width: 256px;
-    height: 219px;
+    top: 9.63vw;
+    left: 20vw;
+    width: 13.333vw;
+    height: 11.4vw;
     background-image: url("images/iphone.png");
     background-size: cover;
 }
 #mac{
     position: relative;
-    top: -190px;
-    left: 683.33px;
-    width: 584px;
-    height: 534px;
+    top: -9.89vw;
+    left: 35.59vw;
+    width: 30.41vw;
+    height: 27.81vw;
     background-image: url("images/mac.png");
     background-size: cover;
 }
 #pc{
     position: relative;
-    top: -580px;
-    left: 1259.33px;
-    width: 271px;
-    height: 238px;
+    top: -30.20vw;
+    left: 65.59vw;
+    width: 14.41vw;
+    height: 12.39vw;
     background-image: url("images/pc.png");
     background-size: cover;
 }
 #flecha2{
     position: relative;
-    top: -710px;
-    left: 1573.28px;
-    width: 18.9px;
-    height: 26.61px;
+    top: -36.97vw;
+    left: 81.94vw;
+    width: 0.98vw;
+    height: 1.38vw;
     background-image: url("images/Flecha@2x.png");
     background-size: cover;
     transform: rotate(180deg);
 }
 #case{
     position: relative;
-    top: -480px;
-    left: 824.33px;
-    width: 430px;
-    height: 241px; 
+    top: -25vw;
+    left: 42.93vw;
+    width: 22.39vw;
+    height: 12.55vw; 
     background-image: url("images/Logo\ CACE\ Invertido\ UP@2x.png");
     background-size: cover;
 }
@@ -281,45 +276,45 @@ body{
 }
 #powered{
     position: relative;
-    top: 25px;
-    left: 17px;
-    width: 92px;
-    height: 20px;
+    top: 1.3;
+    left: 0.88vw;
+    width: 4.79vw;
+    height: 1.04vw;
     color: white;
-    font-size: 20px;
+    font-size: 1.04vw;
     font-family: "powered";
 }
 #privacy{
     position: relative;
-    top: -600px;
-    left: 541.33px;
-    width: 831px;
-    height: 25px;
-    font-size: 25px;
+    top: -31.25vw;
+    left: 28.19vw;
+    width: 43.28vw;
+    height:1.3vw;
+    font-size: 1.3vw;
     font-family: "parrafo";
     color: white;
 }
 #terms{
-    margin-top: -32px;
-    margin-left: 207px;
-    width: 146px;
-    height: 25px;
+    margin-top: -1.666vw;
+    margin-left: 10.78vw;
+    width: 7.6vw;
+    height: 1.3vw;
 }
 #sales{
-    margin-top: -25px;
-    margin-left: 374px;
-    width: 212px;
-    height: 25px;
+    margin-top: -1.3vw;
+    margin-left: 20.07vw;
+    width: 11.04vw;
+    height: 1.3vw;
 }
 #legal{
-    margin-top: -25px;
-    margin-left: 626px;
-    width: 98px;
-    height: 25px;
+    margin-top: -1.3vw;
+    margin-left: 32.6vw;
+    width: 5.1vw;
+    height: 1.3vw;
 }
 #site{
-    margin-top: -25px;
-    margin-left: 733px;
-    width: 98px;
-    height: 25px;
+    margin-top: -1.3vw;
+    margin-left: 38.177vw;
+    width: 5.1;
+    height: 1.3vw;
 }
