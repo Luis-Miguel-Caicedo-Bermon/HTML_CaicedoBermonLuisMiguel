@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#paisaje{
+    width: 100vw;
+    height: 56vw;
+    background: url(images/paisaje.jpg);
+    background-size: cover;
+    border: 1px solid white;
+    overflow: hidden;
+}
+#solnube{
+    display: flex;
+    width: 100vw;
+    height: 16vw;
+    margin-top: 2vw;
+}
+#sol{
+    width: 15vw;
+    height: 15vw;
+    opacity: 50%;
+    margin-left: 60vw;
+    animation-name: sol;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes sol{
+    80%{opacity: 50%;}
+    100%{opacity: 100%;}
+}
+#nube{
+    margin-top: 4vw;
+    margin-left: 23vw;
+    width: 25vw;
+    height: 13vw;
+    animation-name: nube;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    z-index: 100;
+}
+@keyframes nube{
+    50%{margin-left: -60vw;}
+    80%{margin-left: -60vw;}
+    100%{margin-left: -120vw;}
+}
+#lluvia{
+    margin-left: 17vw;
+    width: 20vw;
+    height: 29vw;
+    overflow: hidden;
+}
+#imglluvia{
+    margin-top: -140%;
+    width: 100%;
+    height: 100%;
+    animation-name: lluvia;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    opacity: 0%;
+}
+@keyframes lluvia{
+    50%{
+        margin-top: -140%;
+        opacity: 0%;
+    }
+    51%{
+        opacity: 100%;
+    }
+    80%{
+        margin-top: 140%;
+        opacity: 100%;
+    }
+    100%{
+        margin-top: 140%;
+        opacity: 100%;
+    }
+}
+#flor{
+    display: flex;
+    justify-content: center;
+    margin-left: 25.5vw;
+    margin-top: -8vw;
+    width: 6vw;
+    height: 8vw;
+}
+#imgflor{
+    margin-top: 8vw;
+    width: 0%;
+    height: 0%;
+    animation-name: flor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes flor{
+    80%{
+        width: 0%;
+        height: 0%;
+        margin-top: 8vw;
+    }
+    100%{
+        width: 100%;
+        height: 100%;
+        margin-top: 0vw;
+    }
+}
