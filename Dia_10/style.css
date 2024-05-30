@@ -1,0 +1,30 @@
+body{
+    margin: auto;
+}
+#principal{
+    background-color: aqua;
+    width: 100vw;
+    height: 56.25vw;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#admin{
+    width: 15vw;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: black;
+}
+#barra_superior{
+    width: 85vw;
+    height: 4vw;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+}
+#lineas{
+    margin-left: 1vw;
+    width: 2vw;
+    height: 2vw;
+    cursor: pointer;
+    background-color: blue;
+}
