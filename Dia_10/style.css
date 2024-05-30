@@ -1,21 +1,28 @@
 body{
     margin: auto;
+    font-family: system-ui;
 }
-#principal{
+.principal{
     background-color: aqua;
     width: 100vw;
     height: 56.25vw;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 20vw 80vw;
+    transition: 1s;
 }
 #admin{
-    width: 15vw;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: black;
+    background-color: rgb(204, 50, 196);
+}
+#admin div{
+    margin: 0.5vw;
+    height:  2.5vw;
+    background-color: rgb(186, 186, 255);
+    display: flex;
+    border-radius: 0.5vw;
 }
 #barra_superior{
-    width: 85vw;
     height: 4vw;
     background-color: greenyellow;
     display: flex;
@@ -25,6 +32,30 @@ body{
     margin-left: 1vw;
     width: 2vw;
     height: 2vw;
+    background-color: rgb(2, 183, 255);
+}
+#cara{
+    width: 3vw;
+    margin-top: 0.8vw;
+    margin-left: 0.5vw;
+}
+#tcara{
+    margin-top: 0;
+    margin-left: 1vw;
+    font-size: 2vw;
+    color: #1768ee;
+}
+.menu{
+    position: relative;
+    left: 1vw;
+    width: 2vw;
+    height: 2vw;
     cursor: pointer;
-    background-color: blue;
+}
+.menuc{
+    display: none;
+}
+.menuc:checked + .principal{
+    grid-template-columns: 5vw 95vw;
+
 }
