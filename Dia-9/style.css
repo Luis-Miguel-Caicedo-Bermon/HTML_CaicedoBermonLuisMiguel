@@ -23,7 +23,7 @@ body{
     opacity: 50%;
     margin-left: 60vw;
     animation-name: sol;
-    animation-duration: 10s;
+    animation-duration: 14s;
     animation-iteration-count: infinite;
 }
 @keyframes sol{
@@ -36,12 +36,13 @@ body{
     width: 25vw;
     height: 13vw;
     animation-name: nube;
-    animation-duration: 10s;
+    animation-duration: 14s;
     animation-iteration-count: infinite;
     z-index: 100;
 }
 @keyframes nube{
-    50%{margin-left: -60vw;}
+    35%{margin-left: 23vw;}
+    60%{margin-left: -60vw;}
     80%{margin-left: -60vw;}
     100%{margin-left: -120vw;}
 }
@@ -56,16 +57,16 @@ body{
     width: 100%;
     height: 100%;
     animation-name: lluvia;
-    animation-duration: 10s;
+    animation-duration: 14s;
     animation-iteration-count: infinite;
     opacity: 0%;
 }
 @keyframes lluvia{
-    50%{
+    60%{
         margin-top: -140%;
         opacity: 0%;
     }
-    51%{
+    61%{
         opacity: 100%;
     }
     80%{
@@ -90,7 +91,7 @@ body{
     width: 0%;
     height: 0%;
     animation-name: flor;
-    animation-duration: 10s;
+    animation-duration: 14s;
     animation-iteration-count: infinite;
 }
 @keyframes flor{
@@ -104,4 +105,27 @@ body{
         height: 100%;
         margin-top: 0vw;
     }
+}
+#cuentare{
+    font-size: 4vw;
+    width: 15vw;
+    height: 7vw;
+    margin-top: -6vw;
+    margin-left: 43vw;
+    text-align: center;
+    overflow: hidden;
+}
+#numero{
+    margin-top: 7vw;
+    animation-name: numero;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+}
+@keyframes numero{
+    7%{margin-top: 0vw;}
+    14%{margin-top: -8vw;}
+    21%{margin-top: -17vw;}
+    28%{margin-top: -26vw;}
+    35%{margin-top: -34vw;}
+    100%{margin-top: -32vw;}
 }
