@@ -84,17 +84,56 @@ body{
     grid-row-start: 2;
     height: 52.25vw;
 }
-#elements{
-    background-color: white;
+.elements{
+    margin: 0 0.8vw;
+    height: 0.4vw;
+    display: grid;
+    border-radius: 0.5vw;
+    padding: 1.6vw 0;
+    font-size: 1.5vw;
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+#elementch:checked + .elements{
+    background-color: #1652f1;
+    color: white;
+    margin-bottom: 14vw;
+}
+#elementch:checked + .elements #alert{
+    opacity: 100%;
+    margin-top: 1vw;
+}
+#elementch{
+    display: none;
 }
 #element{
-    margin-left: 2.2vw;
+    position: relative;
+    top: -1.5vw;
+    grid-column-start: 2;
 }
 #mayor{
-    margin-left: 5vw;
+    position: relative;
+    top: -1.5vw;
+    left: 2vw;
     font-size: 1vw;
+    grid-column: 3/4;
 }
 #imgelement{
+    position: relative;
+    top: -0.8vw;
+    left: 0.7vw;
     width: 2vw;
-    margin-left: 0.7vw;
+}
+#alert{
+    position: relative;
+    top: -1vw;
+    opacity: 0;
+    color: black;
+    padding: 0;
+    grid-column: 2/4;
+}
+#alert:hover{
+    color: #0400ff;
+    cursor: pointer;
 }
