@@ -8,6 +8,7 @@ body{
     display: grid;
     grid-template-columns: 20vw 80vw;
     transition: 0.5s;
+    overflow: hidden;
 }
 .admin{
     grid-row-start: 1;
@@ -19,7 +20,7 @@ body{
     display: flex;
     border-radius: 0.5vw;
     overflow: hidden;
-    padding: 0.5vw 0;
+    padding: 1vw 0;
     align-items: center;
     font-size: 1.5vw;
 }
@@ -27,6 +28,14 @@ body{
     height: 4vw;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+#barra_superior img{
+    background-color: black;
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-right: 1vw;
+    border-radius: 50%;
 }
 #lineas{
     margin-left: 1vw;
@@ -71,9 +80,9 @@ body{
     height: 3vw;
 }
 #main{
-    margin-top: 1.5vw;
+    margin-top: 2vw;
     padding: 0;
-    width: 5vw;
+    width: 10vw;
     height: 2vw;
     font-size: 1vw;
     color: rgb(128, 128, 128);
@@ -101,7 +110,7 @@ body{
     margin-bottom: 14vw;
 }
 #elementch:checked + .elements #alert{
-    opacity: 100%;
+    display: inherit;
     margin-top: 1vw;
 }
 #elementch{
@@ -109,12 +118,12 @@ body{
 }
 #element{
     position: relative;
-    top: -1.5vw;
+    top: -1.8vw;
     grid-column-start: 2;
 }
 #mayor{
     position: relative;
-    top: -1.5vw;
+    top: -1.8vw;
     left: 2vw;
     font-size: 1vw;
     grid-column: 3/4;
@@ -128,12 +137,160 @@ body{
 #alert{
     position: relative;
     top: -1vw;
-    opacity: 0;
     color: black;
     padding: 0;
     grid-column: 2/4;
+    display: none;
 }
 #alert:hover{
     color: #0400ff;
     cursor: pointer;
+}
+.menuc:checked + .principal #alert{
+    opacity: 0%;
+}
+#char{
+    display: none;
+}
+#char:checked + .char div{
+    background-color: rgb(231, 231, 231);
+}
+.char{
+    cursor: pointer;
+}
+.char div{
+    margin-top: 0.5vw;
+}
+.char img{
+    background-color: black;
+    margin-left: 1vw;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.char p{
+    margin-left: 2.5vw;
+}
+#wid{
+    display: none;
+}
+#wid:checked + .char div{
+    background-color: rgb(231, 231, 231);
+}
+#tables{
+    display: none;
+}
+#tables:checked + .char div{
+    background-color: rgb(231, 231, 231);
+}
+#flecha{
+    margin-left: 7vw;
+}
+.char #list{
+    display: none;
+}
+#for:checked + .char div{
+    background-color: #1652f1;
+    color: white;
+}
+#for{
+    display: none;
+}
+#for:checked + .char #list{
+    font-size: 1.5vw;
+    display: block;
+    margin-left: 5.7vw;
+}
+.char #list:hover{
+    color: #0400ff;
+}
+#menuc:checked + .principal #list{
+    display: none;
+}
+#dash{
+    margin: 1vw 1vw;
+    font-size: 2.5vw;
+}
+#ho{
+    margin: 1vw 1vw;
+    font-size: 1.4vw;
+    display: flex;
+    color: gray;
+}
+#ho div{
+    margin-right: 0.7vw;
+    color: #1652f1;
+}
+.grid{
+    margin: 4% 2%;
+    display: grid;
+    gap: 1.5vw;
+}
+.griddiv{
+    background-color: white;
+    border-radius: 1vw;
+    height: 10vw;
+    padding: 1vw;
+}
+#flechas{
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    font-size: 2vw;
+}
+#flechas img{
+    width: 2vw;
+    height: 1.5vw;
+}
+#descrip{
+    font-size: 1.2vw;
+    padding: 0;
+}
+#barra{
+    margin-top: 2vw;
+    background-color: rgb(223, 223, 223);
+    width: 100%;
+    height: 1vw;
+    border-radius: 1vw;
+}
+#relleno1{
+    border-radius: inherit;
+    background-color: #0400ff;
+    width: 40%;
+    height: 100%;
+}
+#relleno2{
+    border-radius: inherit;
+    background-color: #0400ff;
+    width: 60%;
+    height: 100%;
+}
+#relleno3{
+    border-radius: inherit;
+    background-color: #0400ff;
+    width: 30%;
+    height: 100%;
+}
+#relleno4{
+    border-radius: inherit;
+    background-color: #0400ff;
+    width: 80%;
+    height: 100%;
+}
+#porcentaje{
+    margin-top: 0.5vw;
+    font-size: 1vw;
+}
+#large{
+    grid-column: 1/5;
+    height: 8vw;
+    background-color: white;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+#sales{
+    font-size: 1.6vw;
+}
+#hola{
+    margin-top: 2.7vw;
+    font-size: 2vw;
 }
