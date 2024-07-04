@@ -1,0 +1,108 @@
+body {
+    font-family: 'Alfa Slab One', cursive;
+    font-size:6rem;
+    background:#2c333a;
+  }
+#principal{
+    width: 32vw;
+    height: 6vw;
+    font-size: 6vw;
+    display: flex;
+    background-color: #2d333a;
+    margin: 5vw auto;
+}
+#verde1{
+    color: #78c6b7;
+    animation-name: verde1;
+    animation-duration: 6s;
+}
+#verde2{
+    color: #78c6b7;
+    animation-name: verde2;
+    animation-duration: 6s;
+}
+#verde3{
+    color: #78c6b7;
+    animation-name: verde3;
+    animation-duration: 6s;
+}
+#verde4{
+    color: #78c6b7;
+    animation-name: verde4;
+    animation-duration: 6s;
+}
+#gris1{
+    color: #a7b9c0;
+    animation-name: gris1;
+    animation-duration: 6s;
+}
+#gris2{
+    color: #a7b9c0;
+    animation-name: gris2;
+    animation-duration: 6s;
+}
+#gris3{
+    color: #a7b9c0;
+    animation-name: gris3;
+    animation-duration: 6s;
+}
+#espacio{
+    width: 10vw;
+    height: auto;
+}
+@keyframes verde1{
+    7.14%{
+        transform: rotatex(180deg);
+    }
+    100%{
+        transform: rotateX(180deg);
+    }
+}
+@keyframes gris1{
+    14.28%{
+        transform: rotateX(180deg);
+    }
+    100%{
+        transform: rotateX(180deg);
+    }
+}
+@keyframes verde2{
+    21.42%{
+        transform: rotatex(180deg);
+    }
+    100%{
+        transform: rotateX(180deg);
+    }
+}
+@keyframes gris2{
+    28.56%{
+        transform: rotateX(180deg);
+    }
+    100%{
+        transform: rotateX(180deg);
+    }
+}
+@keyframes verde3{
+    35.7%{
+        transform: rotatex(180deg);
+    }
+    100%{
+        transform: rotateX(180deg);
+    }
+}
+@keyframes gris3{
+    42.84%{
+        transform: rotateX(180deg);
+    }
+    100%{
+        transform: rotateX(180deg);
+    }
+}
+@keyframes verde4{
+    49.98%{
+        transform: rotatex(180deg);
+    }
+    100%{
+        transform: rotateX(180deg);
+    }
+}

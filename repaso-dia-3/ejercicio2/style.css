@@ -1,0 +1,40 @@
+body{
+    margin: auto;
+}
+#fondo{
+    background: url(imges/sky.jpg);
+    width: 100vw;
+    height: 100vw;
+    background-size: cover;
+    border: solid transparent;
+}
+#nube1{
+    margin-left: -10vw;
+    margin-top: 10vw;
+    width: 10vw;
+    height: 6vw;
+    animation-name: nube1;
+    animation-duration: 12s;
+    display: block;
+    animation-iteration-count: infinite;
+}
+#nube2{
+    margin-left: -10vw;
+    margin-top: 2vw;
+    width: 10vw;
+    height: 6vw;
+    animation-name: nube2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes nube1{
+    100%{
+        margin-left: 110vw;
+    }
+}
+@keyframes nube2{
+    100%{
+        
+        margin-left: 110vw;
+    }
+}
