@@ -1,42 +1,225 @@
 #principal{
     width: 20vw;
     height: 30vw;
-}
-#pricipal img{
-    width: 100%;
-    height: 100%;
-    display: none;
-    animation-name: frame1;
-    animation-duration: 2s;
+    margin-left: 100vw;
+    animation-name: principal;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
-#frame1{
-    animation-name: frame1;
+@keyframes principal{
+    100%{
+        margin-left: -20vw;
+    }
+}
+#pricipal img{
+    width: 20vw;
+    height: 30vw;
 }
 #frame1{
     animation-name: frame1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
-#frame1{
-    animation-name: frame1;
+#frame2{
+    animation-name: frame2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
-#frame1{
-    animation-name: frame1;
+#frame3{
+    animation-name: frame3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
-#frame1{
-    animation-name: frame1;
+#frame4{
+    animation-name: frame4;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
-#frame1{
-    animation-name: frame1;
+#frame5{
+    animation-name: frame5;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
-#frame1{
-    animation-name: frame1;
+#frame6{
+    animation-name: frame6;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
-#frame1{
-    animation-name: frame1;
+#frame7{
+    animation-name: frame7;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
-#frame1{
-    animation-name: frame1;
+#frame8{
+    animation-name: frame8;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
-#frame1{
-    animation-name: frame1;
+#frame9{
+    animation-name: frame9;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#frame10{
+    animation-name: frame10;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes frame1{
+    10%{
+        display: none;
+    }
+    100%{
+        display: none;
+    }
+}
+@keyframes frame2{
+    0%{
+        display: none;
+    }
+    10%{
+        display: none;
+    }
+    11%{
+        display: block;
+    }
+    20%{
+        display: none;
+    }
+    100%{
+        display: none;
+    }
+}
+@keyframes frame3{
+    0%{
+        display: none;
+    }
+    20%{
+        display: none;
+    }
+    21%{
+        display: block;
+    }
+    30%{
+        display: none;
+    }
+    100%{
+        display: none;
+    }
+}
+@keyframes frame4{
+    0%{
+        display: none;
+    }
+    30%{
+        display: none;
+    }
+    31%{
+        display: block;
+    }
+    40%{
+        display: none;
+    }
+    100%{
+        display: none;
+    }
+}
+@keyframes frame5{
+    0%{
+        display: none;
+    }
+    40%{
+        display: none;
+    }
+    41%{
+        display: block;
+    }
+    50%{
+        display: none;
+    }
+    100%{
+        display: none;
+    }
+}
+@keyframes frame6{
+    0%{
+        display: none;
+    }
+    50%{
+        display: none;
+    }
+    51%{
+        display: block;
+    }
+    60%{
+        display: none;
+    }
+    100%{
+        display: none;
+    }
+}
+@keyframes frame7{
+    0%{
+        display: none;
+    }
+    60%{
+        display: none;
+    }
+    61%{
+        display: block;
+    }
+    70%{
+        display: none;
+    }
+    100%{
+        display: none;
+    }
+}
+@keyframes frame8{
+    0%{
+        display: none;
+    }
+    70%{
+        display: none;
+    }
+    71%{
+        display: block;
+    }
+    80%{
+        display: none;
+    }
+    100%{
+        display: none;
+    }
+}
+@keyframes frame9{
+    0%{
+        display: none;
+    }
+    80%{
+        display: none;
+    }
+    81%{
+        display: block;
+    }
+    90%{
+        display: none;
+    }
+    100%{
+        display: none;
+    }
+}
+@keyframes frame10{
+    0%{
+        display: none;
+    }
+    90%{
+        display: none;
+    }
+    91%{
+        display: block;
+    }
+    100%{
+        display: none;
+    }
 }

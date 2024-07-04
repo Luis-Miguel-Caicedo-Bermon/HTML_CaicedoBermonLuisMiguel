@@ -1,0 +1,69 @@
+body{
+    background-color: #f9e4c9;
+}
+#circulo{
+    margin: 10vw auto;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -5vw;
+    animation-name: movee;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes movee{
+    0%{
+        margin-top: 100vw;
+    }
+    90%{
+        margin-top: 0vw;
+    }
+    97%{
+        margin-top: 13vw;
+    }
+    100%{
+        margin-top: 10vw;
+    }
+}
+#imagen{
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+}
+#cuadro{
+    margin: 0 auto;
+    width: 30vw;
+    height: 18vw;
+    background-color: white;
+    text-align: center;
+    border: solid transparent;
+    
+}
+#your{
+    margin-top: 5vw;
+    color: #f091a0;
+    font-size: 2vw;
+}
+#come{
+    font-size: 1vw;
+    opacity: 50%;
+    margin-top: 1vw;
+}
+#make{
+    font-size: 1vw;
+    margin: 2vw auto;
+    color: white;
+    background-color: #009ab1;
+    padding: 0.7vw;
+    width: 12vw;
+    border-radius: 0.4vw;
+    transition: all;
+    transition-duration: 0ms;
+}
+#make:hover{
+    background-color: #f34e60;
+}
