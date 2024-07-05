@@ -2,7 +2,7 @@ body{
     background-color: #f9e4c9;
 }
 #circulo{
-    margin: 10vw auto;
+    margin: -4vw auto;
     width: 8vw;
     height: 8vw;
     border-radius: 50%;
@@ -10,10 +10,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: -5vw;
-    animation-name: movee;
-    animation-duration: 2s;
-    animation-timing-function: linear;
+    box-shadow: gray 0 0 0.4vw;
+
 }
 @keyframes movee{
     0%{
@@ -35,12 +33,15 @@ body{
     border-radius: 50%;
 }
 #cuadro{
-    margin: 0 auto;
+    margin: 10vw auto;
     width: 30vw;
     height: 18vw;
     background-color: white;
     text-align: center;
     border: solid transparent;
+    animation-name: movee;
+    animation-duration: 2s;
+    animation-timing-function: linear;
     
 }
 #your{
@@ -66,4 +67,32 @@ body{
 }
 #make:hover{
     background-color: #f34e60;
+}
+.menu{
+    width: 2.5vw;
+    height: 2.5vw;
+    overflow: hidden;
+    transition-duration: 0.5s;
+    font-family: 'Alfa Slab One', cursive;
+}
+.menu div{
+    width: 9vw;
+    padding: 0.5vw;
+    border: #b9b9b9 solid 0.1vw;
+    margin-top: 1vw;
+    margin-left: 2.5vw;
+}
+.menu div:hover{
+    background-color: rgb(197, 197, 197);
+}
+#menu{
+    display: none;
+}
+#e{
+    text-decoration: none;
+    color: black;
+}
+#menu:checked + .menu{
+    width: 15vw;
+    height: 24vw;
 }

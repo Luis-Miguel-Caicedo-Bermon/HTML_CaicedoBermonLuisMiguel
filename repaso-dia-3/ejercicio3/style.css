@@ -1,9 +1,10 @@
 #principal{
     width: 20vw;
-    height: 30vw;
+    height:20vw;
     margin-left: 100vw;
     animation-name: principal;
     animation-duration: 10s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 @keyframes principal{
@@ -222,4 +223,32 @@
     100%{
         display: none;
     }
+}
+.menu{
+    width: 2.5vw;
+    height: 2.5vw;
+    overflow: hidden;
+    transition-duration: 0.5s;
+}
+.menu div{
+    width: 9vw;
+    padding: 0.5vw;
+    border: #b9b9b9 solid 0.1vw;
+    margin-top: 1vw;
+    margin-left: 2.5vw;
+    font-family: 'Alfa Slab One', cursive;
+}
+.menu div:hover{
+    background-color: rgb(197, 197, 197);
+}
+#menu{
+    display: none;
+}
+#e{
+    text-decoration: none;
+    color: black;
+}
+#menu:checked + .menu{
+    width: 15vw;
+    height: 24vw;
 }

@@ -2,7 +2,7 @@ body{
     margin: auto;
 }
 #fondo{
-    background: url(imges/sky.jpg);
+    background: url(images/sky.jpg);
     width: 100vw;
     height: 100vw;
     background-size: cover;
@@ -17,6 +17,7 @@ body{
     animation-duration: 12s;
     display: block;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 #nube2{
     margin-left: -10vw;
@@ -26,6 +27,7 @@ body{
     animation-name: nube2;
     animation-duration: 15s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 @keyframes nube1{
     100%{
@@ -37,4 +39,32 @@ body{
         
         margin-left: 110vw;
     }
+}
+.menu{
+    width: 2.5vw;
+    height: 2.5vw;
+    overflow: hidden;
+    transition-duration: 0.5s;
+}
+.menu div{
+    width: 9vw;
+    padding: 0.5vw;
+    border: #b9b9b9 solid 0.1vw;
+    font-family: 'Alfa Slab One', cursive;
+    margin-top: 1vw;
+    margin-left: 2.5vw;
+}
+.menu div:hover{
+    background-color: rgb(197, 197, 197);
+}
+#menu{
+    display: none;
+}
+#e{
+    text-decoration: none;
+    color: black;
+}
+#menu:checked + .menu{
+    width: 15vw;
+    height: 24vw;
 }

@@ -1,15 +1,14 @@
 body {
     font-family: 'Alfa Slab One', cursive;
-    font-size:6rem;
     background:#2c333a;
   }
 #principal{
     width: 32vw;
-    height: 6vw;
+    height: 12vw;
     font-size: 6vw;
     display: flex;
-    background-color: #2d333a;
     margin: 5vw auto;
+    transform: rotateX(180deg);
 }
 #verde1{
     color: #78c6b7;
@@ -20,6 +19,7 @@ body {
     color: #78c6b7;
     animation-name: verde2;
     animation-duration: 6s;
+
 }
 #verde3{
     color: #78c6b7;
@@ -51,58 +51,125 @@ body {
     height: auto;
 }
 @keyframes verde1{
+    0%{
+        transform: rotateX(90deg);
+    }
     7.14%{
         transform: rotatex(180deg);
     }
-    100%{
+    50%{
         transform: rotateX(180deg);
+    }
+    57%{
+        transform: rotateX(0);
     }
 }
 @keyframes gris1{
+    0%{
+        transform: rotateX(90deg);
+    }
     14.28%{
         transform: rotateX(180deg);
     }
-    100%{
+    57%{
         transform: rotateX(180deg);
+    }
+    64%{
+        transform: rotateX(0);
     }
 }
 @keyframes verde2{
-    21.42%{
+    0%{
+        transform: rotateX(90deg);
+    }
+    21%{
+        transform: rotateX(180deg);
+    }
+    64%{
         transform: rotatex(180deg);
     }
-    100%{
-        transform: rotateX(180deg);
+    71%{
+        transform: rotateX(0deg);
     }
 }
 @keyframes gris2{
+    0%{
+        transform: rotateX(90deg);
+    }
     28.56%{
         transform: rotateX(180deg);
     }
-    100%{
+    71%{
         transform: rotateX(180deg);
+    }
+    78%{
+        transform: rotateX(0deg);
     }
 }
 @keyframes verde3{
+    0%{
+        transform: rotateX(90deg);
+    }
     35.7%{
         transform: rotatex(180deg);
     }
-    100%{
+    78%{
         transform: rotateX(180deg);
+    }
+    85%{
+        transform: rotateX(0deg);
     }
 }
 @keyframes gris3{
+    0%{
+        transform: rotateX(90deg);
+    }
     42.84%{
         transform: rotateX(180deg);
     }
-    100%{
+    85%{
         transform: rotateX(180deg);
+    }
+    92%{
+        transform: rotateX(0deg);
     }
 }
 @keyframes verde4{
+    0%{
+        transform: rotateX(90deg);
+    }
     49.98%{
         transform: rotatex(180deg);
     }
-    100%{
+    92%{
         transform: rotateX(180deg);
     }
+}
+.menu{
+    width: 2.5vw;
+    height: 2.5vw;
+    overflow: hidden;
+    transition-duration: 0.5s;
+}
+.menu div{
+    width: 9vw;
+    padding: 0.5vw;
+    border: #b9b9b9 solid 0.1vw;
+    margin-top: 1vw;
+    color: white;
+    margin-left: 2.5vw;
+}
+.menu div:hover{
+    background-color: rgb(197, 197, 197);
+}
+#menu{
+    display: none;
+}
+#e{
+    text-decoration: none;
+    color: black;
+}
+#menu:checked + .menu{
+    width: 15vw;
+    height: 24vw;
 }
