@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(184, 40, 40);
+}
+.principal{
+    margin: 10vw auto;
+    width: 40vw;
+    height: 30vw;
+    background-color: greenyellow;
+}
+.principal div{
+    margin-top: 1vw;
+    width: 40vw;
+    height: 4vw;
+    background-color: white;
+}
+#inp1:checked ~ .c1{
+    height: 10vw;
+}
+#inp1:checked ~ .c2{
+    height: 10vw;
+}
+#inp3:checked + .c3{
+    height: 10vw;
+}
+#inp4:checked + .c4{
+    height: 10vw;
+}
+#inp5:checked + .c5{
+    height: 10vw;
+}
+#boton{
+    width: 3vw;
+    height: 3vw;
+    background-color: aqua;
+}
