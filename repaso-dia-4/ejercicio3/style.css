@@ -5,22 +5,27 @@ body{
     margin: 10vw auto;
     width: 40vw;
     height: 30vw;
-    background-color: greenyellow;
+}
+.principal input{
+    display: none;
 }
 .principal div{
     margin-top: 1vw;
     width: 40vw;
     height: 4vw;
     background-color: white;
+    overflow: hidden;
+    transition-duration: 0.5s;
 }
-#inp1:checked ~ .c1{
-    height: 10vw;
+
+#inp1:checked + .c1{
+    height: 13vw;
 }
-#inp1:checked ~ .c2{
-    height: 10vw;
+#inp2:checked + .c2{
+    height: 13vw;
 }
 #inp3:checked + .c3{
-    height: 10vw;
+    height: 13vw;
 }
 #inp4:checked + .c4{
     height: 10vw;
@@ -28,8 +33,30 @@ body{
 #inp5:checked + .c5{
     height: 10vw;
 }
+.cont{
+    width: 40vw;
+    display: flex;
+}
 #boton{
-    width: 3vw;
+    margin-top: 0;
+    font-size: 2vw;
+    width: 2vw;
     height: 3vw;
-    background-color: aqua;
+    color: rgb(0, 149, 255);
+    transform: rotateZ(90deg);
+}
+#azul{
+    margin-top: 0;
+    color: rgb(0, 149, 255);
+    width: 36vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    display: flex;
+}
+#tex{
+    margin: 0 1vw;
+    width: 38vw;
+    height: 7vw;
+    font-size: 1.2vw;
 }
