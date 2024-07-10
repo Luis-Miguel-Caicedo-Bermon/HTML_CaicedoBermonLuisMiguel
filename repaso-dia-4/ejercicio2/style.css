@@ -1,12 +1,5 @@
-.borde{
-    margin: 4vw auto;
-    width: 30vw;
-    height: 31.3vw;
-    background-color: rgb(214, 214, 214);
-    border-radius: 4vw;
-    box-shadow: 0 2vw 3vw -1.2vw;
-}
 .principal{
+    margin: 4vw auto;
     background-color: white;
     width: 30vw;
     height: 30vw;
@@ -14,24 +7,48 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 1vw 0.7vw #ccc,
+    0 1vw 1vw #b8b8b8,
+    0 1vw 2vw gray,
+    0 1vw 0.5vw black;
 }
 .circulo{
     width: 25vw;
     height: 25vw;
-    background: linear-gradient(rgb(0, 195, 255), rgb(84, 113, 243));
+    background: linear-gradient(#1db1f8, #2469e4);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.circulo span{
+    background: #f2f2f2;
+    position: absolute;
+    width: 0.1vw;
+    height: 1vw;
+    transform: translateY(-10.4vw) rotate(calc(10deg*var(--i)));
+    transform-origin: 0 11vw;
+    filter: drop-shadow(0.5vw 0.7vw 0.5vw rgba(0,0,0,0.15));
+}
+.circulo span::after{
+    background: #fff;
+    content: "";
+    position: absolute;
+    width: 0.1vw;
+    height: 2vw;
+    transform: rotate(5deg);
+    transform-origin: 0 11vw;
+}
 .flecha{
+    transform: rotateZ(45deg);
     width: 22vw;
     height: 22vw;
     transition: all;
     transition-duration: 3s;
+    animation-timing-function: linear;
 }
 .flecha:hover{
-    transform: rotateZ(360deg);
+    transform: rotateZ(405deg);
 }
 #rojo{
     margin: auto;
