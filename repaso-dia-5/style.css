@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.principal{
+    width: 100vw;
+    height: 100vw;
+    background-color: black;
+}
+#conmenu{
+    display: flex;
+    color: white;
+}
+#logo{
+    margin-top: 1.5vw;
+    margin-left: 20vw;
+    font-size: 2vw;
+    width: 40vw;
+}
+#home{
+    font-size: 1.5vw;
+    margin-top: 2vw;
+}
+#about{
+    margin-left: 3vw;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+}
+#menu{
+    margin-left: 3vw;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+}
+#contact{
+    margin-left: 3vw;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+}
