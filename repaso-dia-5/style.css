@@ -5,8 +5,7 @@ body{
 }
 .principal{
     width: 100vw;
-    height: 100vw;
-    background-color: black;
+    background-color: #110f10;
 }
 #conmenu{
     display: flex;
@@ -22,18 +21,175 @@ body{
     font-size: 1.5vw;
     margin-top: 2vw;
 }
+#home:hover{
+    text-decoration-line: underline;
+}
 #about{
     margin-left: 3vw;
     font-size: 1.5vw;
     margin-top: 2vw;
+}
+#about:hover{
+    text-decoration-line: underline;
 }
 #menu{
     margin-left: 3vw;
     font-size: 1.5vw;
     margin-top: 2vw;
 }
+#menu:hover{
+    text-decoration-line: underline;
+}
 #contact{
     margin-left: 3vw;
     font-size: 1.5vw;
     margin-top: 2vw;
+}
+#contact:hover{
+    text-decoration-line: underline;
+}
+.cofee{
+    width: 100vw;
+    height: 50vw;
+    background: url(Images/copia.jpg);
+    background-size: cover;
+    border: solid transparent;
+}
+#start{
+    text-align: center;
+    margin-top: 7vw;
+    color: white;
+    font-size: 4vw;
+}
+#with{
+    text-align: center;
+    margin-top: 30vw;
+    color: white;
+    font-size: 4vw;
+}
+#shop{
+    margin: 3vw auto;
+    width: 6vw;
+    text-align: center;
+    padding: 0.5vw 1vw;
+    background-color: #d89f52;
+    font-size: 1.1vw;
+}
+.coffe2{
+    width: 100vw;
+    height: 45vw;
+    display: flex;
+}
+#img1{
+    width: 40vw;
+    height: 28vw;
+    margin-top: 10vw;
+    margin-left: 5vw;
+}
+#linea{
+    margin-left: 10vw;
+    margin-top: 18vw;
+    width: 7vw;
+    height: 0.1vw;
+    background-color: white;
+}
+#cont1{
+    margin-left: 1vw;
+    width: 30vw;
+}
+#our{
+    margin-top: 16vw;
+    font-size: 4vw;
+    color: white;
+}
+#lorem{
+    margin-top: 1vw;
+    color: white;
+    font-size: 1.5vw;
+}
+#learn{
+    margin-top: 1vw;
+    width: 7vw;
+    padding: 0.5vw 1vw;
+    background-color: #d89f52;
+    font-size: 1.1vw;
+    text-align: center;
+}
+#cont2{
+    margin-left: 10vw;
+}
+#img2{
+    margin-top: 15vw;
+    margin-left: 20vw;
+    width: 25vw;
+    height: 23vw;
+}
+#products{
+    color: white;
+    font-size: 4vw;
+    margin: 3vw 0 0 7vw;
+}
+.coffe3{
+    margin-top: 9vw;
+    display: flex;
+    justify-content: space-around;
+}
+.contenedores{
+    border: #d89f52 solid 0.3vw;
+    width: 20vw;
+    height: 30vw;
+}
+#images{
+    width: 7vw;
+    margin-top: -4vw;
+    margin-left: 6vw;
+}
+#mocha{
+    margin-top: 1vw;
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+}
+#expreso{
+    margin-top: 4vw;
+    color: white;
+    margin-left: 6vw;
+    font-size: 1.5vw;
+    line-height: 3vw;
+}
+#more{
+    margin: 4vw auto;
+    width: 8vw;
+    padding: 0.7vw 1vw;
+    background-color: #d89f52;
+    font-size: 1.3vw;
+    text-align: center;
+}
+.linea{
+    background-color: #d89f52;
+    width: 35vw;
+    height: 0.3vw;
+    margin: 5vw auto;
+}
+.final{
+    height: 15vw;
+    display: flex;
+    gap: 3vw;
+    justify-content: center;
+}
+.f1{
+    text-align: center;
+    color: white;
+}
+.opening{
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+#us{
+    color: #d89f52;
+}
+#sit{
+    font-size: 1.5vw;
 }
